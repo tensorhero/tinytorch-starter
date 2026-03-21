@@ -1,22 +1,21 @@
-# TinyTorch Starter Code
+# TinyTorch Starter — Python
 
-TinyTorch 课程起始代码——从零实现一个教学版 PyTorch。
+TinyTorch 课程起始代码（Python）——从零实现一个教学版 PyTorch。
 
-## 快速开始
+## 结构
 
-1. **克隆代码**
-
-```bash
-git clone https://github.com/tensorhero/tinytorch-starter
-cd tinytorch-starter
+```
+tinytorch/         # 核心实现（tensor, function, layer 等）
+tinynum/           # TinyNum 依赖
+tests/             # 每个 stage 一个测试 (test_e01 … test_e10)
+tensorhero.yml     # 课程元数据
 ```
 
-2. **选择语言**
+## 开始
 
-| 语言   | 目录      | 核心文件                                                |
-| ------ | --------- | ------------------------------------------------------- |
-| Java   | `java/`   | `src/main/java/dev/tensorhero/tinytorch/Tensor.java` 等 |
-| Python | `python/` | `tinytorch/tensor.py` 等                                |
+在核心文件中找到 `TODO` 注释，按 stage 顺序逐步实现。
+
+查看 [tinytorch-tester](https://github.com/tensorhero/tinytorch-tester) 了解如何测试你的代码。
 
 3. **完成实现**
 
